@@ -62,6 +62,11 @@ body {
     background-color: #601C37;
 }
 
+.bg-multicolor {
+    background: -webkit-linear-gradient(to left,#435e97,#108a38c9);
+    background: linear-gradient(to left,#435e97,#108a38c9);
+}
+
 .text-cloud {
     color: rgb(236, 240, 241);
 }
