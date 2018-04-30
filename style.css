@@ -39,6 +39,12 @@ body {
     background: #212529;
 }
 
+.bg-multi{
+
+        background: -webkit-linear-gradient(to left,#051c9c,#039b29);
+        background: linear-gradient(to left,#051c9c,#039b29);
+}
+
 .bg-cloud {
     background: rgb(236, 240, 241);
 }
@@ -63,7 +69,7 @@ body {
 }
 
 .text-cloud {
-    color: rgb(236, 240, 241);
+     color: rgb(236, 240, 241) !important ;
 }
 
 .text-dark {
@@ -159,7 +165,7 @@ body {
     padding:0;
     max-width: 100%;
     height: auto;
-    background: url('img/tree-sunset.jpg')no-repeat center fixed;
+    background: url('img/img-bokeh.jpg')no-repeat center fixed;
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
 }
@@ -175,7 +181,7 @@ body {
 
 .round p{
     position: absolute;
-    top:90px; left: 130px;
+    top:90px; left: 70px;
     font-size: 50px; text-align: center;
     width: 100px;
 }
@@ -480,6 +486,7 @@ div#all {
 
 /* */
 
+
 .view-first:hover img {
     transform: scale(1.1);
 }
@@ -503,9 +510,15 @@ div#all {
     transition-delay: 0.2s;
 }
 
-
-
-
-
-
-
+canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+      background: #039b29;
+  }
+  

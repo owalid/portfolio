@@ -1,4 +1,29 @@
 $(document).ready(function(){   
+
+    $("#front_action").click(function(){
+        $(".active").removeClass("active");
+        $("#front_action").addClass('active');
+        $("#back").css("display", "none");
+        $("#front").show();
+    });
+
+    
+    $("#back_action").click(function(){
+        $(".active").removeClass("active");
+        $("#back_action").addClass('active');
+        $("#front").css("display", "none");
+        $("#back").show();
+    });
+
+    
+    $("#all_action").click(function(){
+        $(".active").removeClass("active");
+        $("#all_action").addClass('active');
+        $("#back").show();
+        $("#front").show();
+    });
+
+    
     
     
         /* navigation bar color change */
@@ -13,11 +38,15 @@ $(document).ready(function(){
                         scroll_start = $(this).scrollTop();
                         if(scroll_start > offset.top) {
                             $(".navbar").addClass('bg-cloud')
+                            $(".nav-link").removeClass('text-cloud')
+                            $(".navbar-brand").removeClass('text-cloud')
 
                         } else {
                             $(".navbar").removeClass('bg-light')
                             $(".navbar").removeClass('bg-cloud')
-                            $(".navbar").removeClass('text-dark');
+                            $(".navbar").removeClass('text-dark')
+                            $(".nav-link").addClass('text-cloud')
+                            $(".navbar-brand").addClass('text-cloud')
 
                         }
                 });
