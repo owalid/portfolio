@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
     <!-- Font Awesome -->
@@ -15,6 +17,9 @@
     <!-- custom style -->
     <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" media="screen" href="css/paralax.css">
+
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    
 
   </head>
   <body data-spy="scroll" data-target="#menu">
@@ -113,7 +118,7 @@
     <!--=============================================-->
                         <!-- Competences -->
     <!--=============================================-->
-    <div class="competence padding-150 bg-cloud" id="competence">
+    <section class="competence padding-150 bg-cloud" id="competence">
         <div class="container" >
             <div class="row center-md text-center">
                 <div class="col-md-12">
@@ -124,96 +129,280 @@
 
             <div class="container">
                 <div class="row text-center">
-                        <ul class="nav nav-tabs">
-                                <li class="nav-item">
-                                  <button class="nav-link active" id="all_action">Toutes</button>
-                                </li>
-                                <li class="nav-item">
-                                  <button class="nav-link" id="front_action">Front-end</button>
-                                </li>
-                                <li class="nav-item">
-                                  <button class="nav-link" id="back_action">Back-end</button>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Programation</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Reseaux</a>
-                                </li>
-                                
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Base de données</a>
-                                </li>
 
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Autres</a>
-                                </li>
-                              </ul>
-                </div>
+                    <!-- Nav -->
+                    <div class="col-md-12">
+                            <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                      <button class="nav-link active" id="all_action">Toutes</button>
+                                    </li>
+                                    <li class="nav-item">
+                                      <button class="nav-link" id="front_action">Front-end</button>
+                                    </li>
+                                    <li class="nav-item">
+                                      <button class="nav-link" id="back_action">Back-end</button>
+                                    </li>
+                                    <li class="nav-item">
+                                      <button class="nav-link" id="prog_action">Programation</b>
+                                    </li>
 
-                <div class="row">
-                    <div class="container">
-                        <div id="all">
+                                    <li class="nav-item">
+                                      <button class="nav-link" id="bdd_action">Base de données</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <button class="nav-link" id="tools_action">Outils</button>
+                                    </li>
+                                    <li class="nav-item">
+                                      <button class="nav-link" id="other_action">Autres</button>
+                                    </li>
+                                  </ul>
+                    </div>
+                       
+                
+                         
                             <!-- front -->
-                            <div id="front">
-                                    <div class="col-md-4" id="front">
-                                            <h1>Jquery</h1>
-                                            <img width="100" height="100" src="img/front/jquery.png"/>
+                                    <div class="col-md-2 front padding-10" id="front">
+                                            <i class="devicon-html5-plain-wordmark colored font-70 font-70"></i>
+                                            <div class="progress padding-10">
+                                                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                  </div>
+                                    </div>
+                                    <div class="col-md-2 front padding-10" >
+                                        <i class="devicon-javascript-plain colored font-70"></i>
+                                        <div class="progress padding-10">
+                                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                              </div>
+                                    </div>
+                                    <div class="col-md-2 front padding-10">
+                                              
+                                        <i class="devicon-css3-plain-wordmark colored font-70 font-70"></i>
+                                        <div class="progress padding-10">
+                                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                              </div>
+
+                                    </div>
+                                    <div class="col-md-2 front padding-10">
+                                        
+                                        <i class="devicon-d3js-plain colored font-70 font-70"></i>
+                                        <div class="progress padding-10">
+                                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                              </div>
+                                    </div>
+                                        
+                                    <div class="col-md-2 front padding-10" >
+                                            
+                                            <i class="devicon-jquery-plain-wordmark font-70"></i>
+                                            <div class="progress padding-10">
+                                                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                  </div>
+                                        </div>
+                                        
+                                    <div class="col-md-2 front padding-10" >
+                                            
+                                            <i class="devicon-react-original-wordmark colored font-70 font-70"></i>
+                                            <div class="progress padding-10">
+                                                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                  </div>
                                         </div>  
                                         
-                                    <div class="col-md-4" id="front">
-                                            <h1>React</h1>
-                                            <img width="100" height="100" src="img/front/react-black.206c8110.png"/>
+                                    <div class="col-md-2 front padding-10" >
+                                            
+                                            <i class="devicon-vuejs-plain-wordmark colored font-70 font-70"></i>
+                                            <div class="progress padding-10">
+                                                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                  </div>
+
                                         </div>  
                                         
-                                    <div class="col-md-4" id="front">
-                                            <h1>Vue.js</h1>
-                                            <img width="100" height="100" src="img/front/vue.png"/>
+                                    <div class="col-md-2 front padding-10" >
+                                             
+                                        <i class="devicon-sass-original colored font-70 font-70"></i>
+                                        <div class="progress padding-10">
+                                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                              </div>
+
                                         </div>  
-                                        
-                                    <div class="col-md-4" id="front">
-                                            <h1>Sass</h1>
-                                            <img width="100" height="100" src="img/front/sass.png"/>
-                                        </div>  
-                            </div>
+                       
            
                                 <!-- Back -->
-                                <div id="back">
-                                        <div class="col-md-4" >
-                                                <h1>Jquery</h1>
-                                                <img width="100" height="100" src="img/back/Node.png"/>
+                                        <div class="col-md-2 back" id="back" >
+                                                <i class="devicon-nodejs-plain-wordmark colored font-70 font-70"></i>
+                                                <div class="progress padding-10">
+                                                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                      </div>
                                             </div>  
                                             
-                                        <div class="col-md-4" id="back">
-                                                <h1>React</h1>
-                                                <img width="100" height="100" src="img/back/php.png"/>
+                                        <div class="col-md-2 back" id="back">
+                                                <i class="devicon-php-plain colored font-70 font-70"></i>
+                                                <div class="progress padding-10">
+                                                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                      </div>
                                             </div>  
                                             
-                                        <div class="col-md-4" id="back">
-                                                <h1>Vue.js</h1>
-                                                <img width="100" height="100" src="img/back/py.png"/>
+                                        <div class="col-md-2 back" id="back">
+                                                <i class="devicon-python-plain-wordmark colored font-70 font-70"></i>
+                                                <div class="progress padding-10">
+                                                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                      </div>
                                             </div>  
                                             
-                                        <div class="col-md-4" id="back">
-                                                <h1>Sass</h1>
-                                                <img width="100" height="100" src="img/back/symfo.png"/>
+                                        <div class="col-md-2 back" id="back">
+                                                <i class="devicon-symfony-original-wordmark colored font-70 font-70"></i>
+                                                <div class="progress padding-10">
+                                                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                      </div>
                                             </div>  
                                             
-                                        <div class="col-md-4" id="back">
-                                                <h1>Sass</h1>
-                                                <img width="100" height="100" src="img/back/laravel.png"/>
-                                            </div>           
-                                </div>
+                                        <div class="col-md-2 back" id="back">
+                                                <i class="devicon-laravel-plain-wordmark colored font-70 font-70"></i>
+                                                <div class="progress padding-10">
+                                                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                      </div>
+                                            </div>    
+
+                                    <!-- programation -->
+                                    <div class="col-md-2 prog" id="back" >
+                                            <i class="devicon-c-plain colored font-70 font-70"></i>
+                                            <div class="progress padding-10">
+                                                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                  </div>
+                                        </div>  
+                                        
+                                    <div class="col-md-2 prog" id="back">
+                                            <i class="devicon-cplusplus-plain colored font-70"></i>
+                                            <div class="progress padding-10">
+                                                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                  </div>
+                                        </div>  
+                                        
+                                    <div class="col-md-2 prog" id="back">
+                                            <i class="devicon-java-plain-wordmark colored font-70"></i>
+                                            <div class="progress padding-10">
+                                                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                  </div>
+                                        </div>  
+                                        
+                                    <div class="col-md-2 prog" id="back">
+                                            <i class="devicon-go-plain colored font-70"></i>
+                                            <div class="progress padding-10">
+                                                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                  </div>
+                                        </div>  
+
+                                        <div class="col-md-2 prog" id="back" >
+                                                <i class="devicon-swift-plain-wordmark colored font-70"></i>
+                                                <div class="progress padding-10">
+                                                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                      </div>
+                                            </div>  
+                                            
+
+
+                                        <!-- Bdd -->
+
+                                        <div class="col-md-2 bdd" id="back" >
+                                                <i class="devicon-mysql-plain-wordmark colored font-70"></i>
+                                                <div class="progress padding-10">
+                                                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                      </div>
+                                            </div>  
+                                            
+                                        <div class="col-md-2 bdd" id="back">
+                                                <i class="devicon-mongodb-plain-wordmark colored font-70"></i>
+                                                <div class="progress padding-10">
+                                                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                      </div>
+                                            </div>  
+                                            
+                                        <div class="col-md-2 bdd" id="back">
+                                                <i class="devicon-oracle-original colored font-70"></i>
+                                                <div class="progress padding-10">
+                                                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                      </div>
+                                            </div>  
                                     
-                                </div>
-                                </div>
+                                        
+                                            <!-- outils -->
+                                           
+                                            <div class="col-md-2 tools" id="back" >
+                                                    <i class="devicon-apache-plain-wordmark colored font-70"></i>
+                                                    <div class="progress padding-10">
+                                                            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                          </div>
+                                                </div>  
+                                                
+                                            <div class="col-md-2 tools" id="back">
+                                                    <i class="devicon-bootstrap-plain-wordmark colored font-70"></i>
+                                                    <div class="progress padding-10">
+                                                            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                          </div>
+                                                </div>  
+                                                
+                                            <div class="col-md-2 tools" id="back">
+                                                    <i class="devicon-docker-plain-wordmark colored font-70"></i>
+                                                    <div class="progress padding-10">
+                                                            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                          </div>
+                                                </div>  
+                                            <div class="col-md-2 tools" id="back">
+                                                    <i class="devicon-doctrine-plain-wordmark colored font-70"></i>
+                                                    <div class="progress padding-10">
+                                                            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                          </div>
+                                                </div>  
+                                           
+                                            <div class="col-md-2 tools" id="back">
+                                                    <i class="devicon-git-plain-wordmark colored font-70"></i>
+                                                    <div class="progress padding-10">
+                                                            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                          </div>
+                                                </div>  
+                                           
+                                                <!-- Autres -->
+
+                                                <div class="col-md-2 other" id="back" >
+                                                        <i class="devicon-ssh-plain-wordmark colored font-70"></i>
+                                                        <div class="progress padding-10">
+                                                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                              </div>
+                                                    </div>  
+                                                    
+                                                <div class="col-md-2 other" id="back">
+                                                        <i class="devicon-vim-plain colored font-70"></i>
+                                                        <div class="progress padding-10">
+                                                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                              </div>
+                                                    </div>  
+                                                    
+                                                <div class="col-md-2 other" id="back">
+                                                        <i class="devicon-photoshop-plain colored font-70"></i>
+                                                        <div class="progress padding-10">
+                                                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                              </div>
+                                                    </div>  
+                                                <div class="col-md-2 other" id="back">
+                                                        <i class="devicon-linux-plain colored font-70"></i>
+                                                        <div class="progress padding-10">
+                                                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                              </div>
+                                                    </div>  
+                                               
+                                                <div class="col-md-2 other" id="back">
+                                                        <i class="devicon-illustrator-plain colored font-70"></i>
+                                                        <div class="progress padding-10">
+                                                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                              </div>
+                                                    </div>  
+
+                                        </div>    
+
+                               
 
 
 
-                        </div>
                        
-                           
-                    <!-- <div class="col-md-4 ">
+<!--                            
+                    <div class="col-md-4 ">
                         <h4>HTML5 - CSS3</h4>
                         <p class="round" data-percentage="90">90%</p>
                     </div>
@@ -236,8 +425,8 @@
                     <div class="col-md-4">
                         <h4>Symfony</h4>
                         <p class="round" data-percentage="70">70%</p>
-                    </div>
-                </div> -->
+                    </div> -->
+                </section>
 
                 <!--mettre les suite que tu connais sous forme de ligne ??-->
             </div>
@@ -418,6 +607,7 @@
     crossorigin="anonymous"></script>
 
     <!-- à ajouter pour le page scroll effect -->
+    
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>

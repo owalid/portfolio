@@ -1,26 +1,77 @@
 $(document).ready(function(){   
 
-    $("#front_action").click(function(){
-        $(".active").removeClass("active");
-        $("#front_action").addClass('active');
-        $("#back").css("display", "none");
-        $("#front").show();
-    });
-
-    
     $("#back_action").click(function(){
         $(".active").removeClass("active");
-        $("#back_action").addClass('active');
-        $("#front").css("display", "none");
-        $("#back").show();
+        $("#back_action").addClass("active");
+        $(".front").hide();
+        $(".prog").hide();
+        $(".bdd").hide();
+        $(".tools").hide();
+        $(".other").hide();
+        $(".back").show();
+    });
+    $("#front_action").click(function(){
+        $(".active").removeClass("active");
+        $("#front_action").addClass("active");
+        $(".prog").hide();
+        $(".back").hide();
+        $(".bdd").hide();
+        $(".tools").hide();
+        $(".other").hide();
+        $(".front").show();
+    });
+    $("#prog_action").click(function(){
+        $(".active").removeClass("active");
+        $("#prog_action").addClass("active");
+        $(".front").hide();
+        $(".back").hide();
+        $(".bdd").hide();
+        $(".tools").hide();
+        $(".other").hide();
+        $(".prog").show();
+    });
+
+    $("#bdd_action").click(function(){
+        $(".active").removeClass("active");
+        $("#bdd_action").addClass("active");
+        $(".front").hide();
+        $(".back").hide();
+        $(".prog").hide();
+        $(".tools").hide();
+        $(".other").hide();
+        $(".bdd").show();
+    });
+    $("#tools_action").click(function(){
+        $(".active").removeClass("active");
+        $("#tools_action").addClass("active");
+        $(".front").hide();
+        $(".back").hide();
+        $(".bdd").hide();
+        $(".prog").hide();
+        $(".other").hide();
+        $(".tools").show();
+    });
+    $("#other_action").click(function(){
+        $(".active").removeClass("active");
+        $("#other_action").addClass("active");
+        $(".front").hide();
+        $(".back").hide();
+        $(".bdd").hide();
+        $(".prog").hide();
+        $(".tools").hide();
+        $(".other").show();
     });
 
     
     $("#all_action").click(function(){
         $(".active").removeClass("active");
         $("#all_action").addClass('active');
-        $("#back").show();
-        $("#front").show();
+        $(".back").show();
+        $(".front").show();
+        $(".bdd").show();
+        $(".prog").show();
+        $(".tools").show();
+        $(".other").show();
     });
 
     
